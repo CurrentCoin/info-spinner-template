@@ -1,0 +1,25 @@
+{
+  "title": {
+    "type": "string",
+    "default": "제목입니다"
+  },
+  "content": {
+    "type": "string",
+    "default": "내용이나 정보를 적습니다"
+  },
+  "inverted": {
+    "type": "boolean",
+    "default": false
+  },
+  "spinSpeed": {
+    "type": "range",
+    "min": 1,
+    "max": 60,
+    "default": 5
+  },
+  "spinAxis": {
+    "type": "enum",
+    "values": ["x", "y", "z"],
+    "default": "z"
+  }
+}

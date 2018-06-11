@@ -1,0 +1,51 @@
+:root {
+  --color1: #222;
+  --color2: #F0F0F0;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: var(--color2);
+}
+
+.App--inverted {
+  background-color: var(--color1);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: var(--color1);
+  height: 150px;
+  padding: 20px;
+  color: var(--color2);
+}
+
+.App-header--inverted {
+  background-color: var(--color2);
+  color: var(--color1);
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  padding: 20px;
+  font-size: large;
+}
+
+.App-intro--inverted {
+  color: var(--color2);
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate3d(1, 0, 0, 0deg); }
+  to { transform: rotate3d(1, 0, 0, 360deg); }
+} */
