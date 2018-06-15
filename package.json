@@ -1,0 +1,14 @@
+{
+  "name": "info-spinner-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CurrentCoin/info-spinner-template.git",
+  "author": "jason00111 <emberleyjason@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node node_modules/react-template-preview/index.js"
+  },
+  "dependencies": {
+    "react-template-preview": "^1.0.27"
+  }
+}
